@@ -6,9 +6,9 @@ tagger: SequenceTagger = SequenceTagger.load("ner")
 sentence: Sentence = Sentence("George Washington went to Washington .")
 tagger.predict(sentence)
 
-
-
-
+print("Irgendwas anderes")
+print("und nochwas anderes")
+print("beim Merging dazugekommen")
 
 print("Analysing sentence %s“ % sentence)
 print("\nThe following NER tags are found: \n")
